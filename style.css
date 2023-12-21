@@ -9,11 +9,13 @@ container{
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px repeat(5, minmax(100px, 1fr));
     grid-gap: 10px;
+    margin-inline:15%;
 }
 
 .box-1{
     grid-column:1/-1;
     grid-row:1;
+    background-color:red;
 }
 
 .box-2{
@@ -35,6 +37,7 @@ container{
 
 .box-6{
     grid-column:1/-1;
+    background-color: darkgreen;
 }
 
 @media (max-width: 768px ){
